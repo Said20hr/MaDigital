@@ -2,84 +2,9 @@
 @section('title', 'dashboard')
 @section('content')
     <div class="main-content">
-        <!-- main-header -->
-    @include('admin/includes/header-new')
-    <!-- /main-header -->
-        <!-- container -->
-        <!-- HOME SECTION ONE -->
-
-        <!-- HOME SECTION ONE END -->
-        <!-- SECTION TWO -->
-
-
-        <!-- SECTION TWO END -->
-
-        <!-- SECTION THREE -->
-
-        <!-- SECTION THREE END -->
-
-        <!-- SECTION FOUR -->
+     @include('admin/includes/header-new') 
         <div class="home-section-four pt-5">
-        {{--   <style type="text/css">
-               .custom-tabs .tab-one, .tab-two, .tab-three, .tab-four{
-                   background-color: white;
-                   border-radius: .5rem;
-               }
-
-               .custom-tabs .tab-one, .tab-two, .tab-three, .tab-four{
-                   margin-top: 12px;
-               }
-               .custom-tabs .tab-one.active{
-                   background-color: #3858F9;
-                   color: white;
-               }
-               .custom-tabs .tab-three.active{
-                   background-color: #3858F9;
-                   color: white;
-               }
-               .custom-tabs .tab-four.active{
-                   background-color: #3858F9;
-                   color: white;
-               }
-               .custom-tabs .tab-two.active{
-                   background-color: #3858F9;
-                   color: white;
-               }
-
-               /* .custom-tabs p{
-                   color:  #2D3144;
-                }*/
-               /*         .custom-tabs .tab-one:focus{
-                           background-color: black;
-                        }*/
-
-               /*   .custom-tabs .tab-one h5{
-                    color: black;
-                 }*/
-
-               .custom-tabs .tab-two h4{
-                   color: #FF4E5F;
-               }
-
-               .custom-tabs .tab-three h4{
-                   color: #219653;
-               }
-
-               .custom-tabs .tab-four h4{
-                   color: #6F42C1;
-               }
-
-
-
-               .custom-tabs .tab-one-padding, .tab-two-padding, .tab-three-padding, .tab-four-padding{
-                   padding: 15px;
-               }
-           </style>--}}
-
-
-            <!-- Tab Heading Section -->
             <div class="m-md-4">
-
                 <div class="container-fluid custom-tabs">
                     <div class="row pt-4">
 
@@ -305,35 +230,10 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
-
-            <!-- Tab Content One-->
-
-
-
-
         </div>
-
-        <!-- SECTION FOUR END -->
-
-
-        <!-- /container -->
     </div>
-
-
-
-
-    <!-- FORM POPUP -->
-
-    <!-- Button trigger modal -->
-    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-      Launch demo modal
-    </button> -->
-
-    <!-- Modal -->
-    <div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -343,15 +243,6 @@
                     </button>
                 </div>
                 <div class="modal-body">
-
-                    <!--    <form class="col-md-6">
-                          <div class="form-group">
-                             <label for="input1" class="col-sm-2">
-                           <span class="h6 small bg-white text-muted pt-1 pl-2 pr-2">Username</span></label>
-                             <input type="text" class="form-control mt-n3" id="input1" value="boern">
-                          </div>
-                       </form> -->
-
                     <form>
                         <div class="form-row">
                             <div class="form-group col-md-6">
@@ -396,7 +287,6 @@
 
                             <div class="form-group col-md-12">
                                 <div class="input-icons">
-                                    <!-- <i class="fas fa-envelope icon"></i> -->
                                     <label for="country" class="col-sm-2"><span class="h6 small bg-white text-muted pt-1 pl-2 pr-2">Country</span></label>
                                     <select id="country" class="form-control mt-n3 select-payment">
                                         <option selected disabled>Select Country</option>
@@ -449,10 +339,6 @@
 
 
                 </div>
-                <!--   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                  </div> -->
             </div>
         </div>
     </div>

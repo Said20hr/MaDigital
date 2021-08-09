@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\admin;
+namespace app\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Mail\SendMailToContactList;
