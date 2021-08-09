@@ -46,6 +46,8 @@ Route::get('/contact_Us', function () {
 });
 
 
+
+
 Auth::routes();
 
 Route::get('/confirmation', function () {
@@ -84,6 +86,9 @@ Route::group(['prefix' => 'user'], function () {
         Route::get('/dashboard', [App\Http\Controllers\AdminController::class, 'index'])->name('admin.dashboard');
         Route::get('/dashboard_new', [App\Http\Controllers\AdminController::class, 'dashboard_new'])->name('admin.new-dashboard');
         Route::get('/release', [App\Http\Controllers\AdminController::class, 'release'])->name('admin.release');
+        Route::get('/audio', [App\Http\Controllers\AdminController::class, 'audio'])->name('admin.audio');
+        Route::get('/album', [App\Http\Controllers\AdminController::class, 'album'])->name('admin.album');
+        Route::get('/store', [App\Http\Controllers\AdminController::class, 'store'])->name('admin.store');
         Route::get('/file', [App\Http\Controllers\AdminController::class, 'file'])->name('admin.file');
         Route::post('update_profile', [App\Http\Controllers\Admin::class, 'update_profile']);
         Route::get('/chat', [App\Http\Controllers\AdminController::class, 'Chat'])->name('admin.chat');

@@ -43,7 +43,8 @@ class AdminController extends Controller
         return view('admin.dashboard-new', compact('labels'));
     }
     public function release(){
-        $countries = CountryListFacade::getList('en');
+        // $countries = CountryListFacade::getList('en');
+        $countries = [];
         $collections = Excel::toArray(new Languages,'languages.xlsx');
 
        /* $genres = Excel::toArray(new Languages,'genre.xlsx');
@@ -62,6 +63,15 @@ class AdminController extends Controller
         $labels = User::where('role_id', '3')->get();
         return view('admin.realease', compact('labels','countries','languages'));
 
+    }
+    public function audio(){
+        return view('admin.audio');
+    }
+    public function album(){
+        return view('admin.album');
+    }
+    public function store(){
+        return view('admin.store');
     }
     public function file(){
         $countries = CountryListFacade::getList('en');
