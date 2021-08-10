@@ -13,7 +13,7 @@
             <div class="m-md-4">
                 <div class="manage-store-containner">
                     <div class="card"
-                        style="border-radius: 10px !important; width: 100%; margin: 1em 0 2em 0; background-color: white">
+                        style="border-radius: 10px !important; width: 100%; margin: 1em 0 2em 0; background-color: white; box-shadow: none">
                         <div class="card-body d-flex justify-content-between align-items-center">
                             <div class="d-flex justify-content-center align-items-center fw-bolder">
                                 <div style="font-size: 20px;color: rgba(68,68,68,0.98)">Manage Store</div>
