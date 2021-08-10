@@ -159,10 +159,14 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0.3em 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .upload-album-containner .album-rules__should .album-rules__rule p, .upload-album-containner .album-rules__should-not .album-rules__rule p {
   width: 78%;
+  margin: 0;
 }
 
 .upload-album-containner .album-rules__should .album-rules__rule div, .upload-album-containner .album-rules__should-not .album-rules__rule div {
