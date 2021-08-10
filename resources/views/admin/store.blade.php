@@ -249,6 +249,198 @@
                         </div>
                     </div>
 
+                    <div class="pricing-boxes">
+                        <div class="pricing-boxes__box">
+                            <p>iTunes & Apple Music Pricing</p>
+                            <div class="checkboxes-containner">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck2" checked>
+                                    <label class="custom-control-label" for="customCheck2">Standard</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                    <label class="custom-control-label" for="customCheck3">Lowest</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                    <label class="custom-control-label" for="customCheck3">Low</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                    <label class="custom-control-label" for="customCheck4">High</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-boxes__box">
+                            <p>Amazone Pricing</p>
+                            <div class="checkboxes-containner">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck5" checked>
+                                    <label class="custom-control-label" for="customCheck5">Standard</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                    <label class="custom-control-label" for="customCheck6">Lowest</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck7">
+                                    <label class="custom-control-label" for="customCheck7">Low</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck8">
+                                    <label class="custom-control-label" for="customCheck8">High</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-boxes__box">
+                            <p>Googleplay Pricing</p>
+                            <div class="checkboxes-containner">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck9" checked>
+                                    <label class="custom-control-label" for="customCheck9">Standard</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck10">
+                                    <label class="custom-control-label" for="customCheck10">Lowest</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck11">
+                                    <label class="custom-control-label" for="customCheck11">Low</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck12">
+                                    <label class="custom-control-label" for="customCheck12">High</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-boxes__box">
+                            <p>7digital Pricing</p>
+                            <div class="checkboxes-containner">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck13" checked>
+                                    <label class="custom-control-label" for="customCheck13">Standard</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck14">
+                                    <label class="custom-control-label" for="customCheck14">Lowest</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck15">
+                                    <label class="custom-control-label" for="customCheck15">Low</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck16">
+                                    <label class="custom-control-label" for="customCheck16">High</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-boxes__box">
+                            <p>Tencent Pricing</p>
+                            <div class="checkboxes-containner">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck17" checked>
+                                    <label class="custom-control-label" for="customCheck17">Standard</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck18">
+                                    <label class="custom-control-label" for="customCheck18">Lowest</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck19">
+                                    <label class="custom-control-label" for="customCheck19">Low</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck20">
+                                    <label class="custom-control-label" for="customCheck20">High</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing-boxes__box">
+                            <p>Qobuz Pricing</p>
+                            <div class="checkboxes-containner">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck21" checked>
+                                    <label class="custom-control-label" for="customCheck21">Standard</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck22">
+                                    <label class="custom-control-label" for="customCheck22">Lowest</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck23">
+                                    <label class="custom-control-label" for="customCheck23">Low</label>
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck24">
+                                    <label class="custom-control-label" for="customCheck24">High</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="last-section">
+                        <select class="custom-select custom-select-lg mb-3">
+                            <option selected>Include Thses Territories</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+
+                        <div class="last-section__territories">
+                            <p>Territories</p>
+                            <div class="last-section__territories-field">
+                                <div class="field-containner">
+                                    <div class="elements-containner">
+                                        <div class="element">
+                                            <span>Type 1</span>
+                                            <span class="delete">
+                                                <img src="assets/img/icons/close.svg" alt="close icon">
+                                            </span>
+                                        </div>
+                                        <div class="element">
+                                            <span>Type 2</span>
+                                            <span class="delete">
+                                                <img src="assets/img/icons/close.svg" alt="close icon">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <input type="text" placeholder="Type..">
+                                </div>
+                                <button>Clear territories</button>
+                            </div>
+                        </div>
+                        <div class="last-section__stories">
+                            <p>Stories</p>
+                            <div class="last-section__stories-field">
+                                <div class="field-containner">
+                                    <div class="elements-containner">
+                                        <div class="element">
+                                            <span>Emusic</span>
+                                            <span class="delete">
+                                                <img src="assets/img/icons/close.svg" alt="close icon">
+                                            </span>
+                                        </div>
+                                        <div class="element">
+                                            <span>Emusic</span>
+                                            <span class="delete">
+                                                <img src="assets/img/icons/close.svg" alt="close icon">
+                                            </span>
+                                        </div>
+                                        <div class="element">
+                                            <span>Emusic</span>
+                                            <span class="delete">
+                                                <img src="assets/img/icons/close.svg" alt="close icon">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <input type="text" placeholder="Type..">
+                                </div>
+                                <button>Clear Story</button>
+                            </div>
+                        </div>
+                        <p><span>WARNING:</span> For Woridwide distribution please DO NOT add Territory information. elected
+                            Stores with NO additional Territory information will be distributed Woridiwide.</p>
+                    </div>
 
                 </div>
 
