@@ -35,13 +35,13 @@
                             <div class="audio-containner__upload">
                                 <p><span>1.</span> Uploaded song name 1</p>
                                 <span class="delete">
-                                    <img src="<?php echo asset('assets/img/icons/close.svg'); ?>" alt="close icon">
+                                    <img src="assets/img/icons/close.svg" alt="close icon">
                                 </span>
                             </div>
                             <div class="audio-containner__upload">
                                 <p><span>2.</span> Uploaded song name 2</p>
                                 <span class="delete">
-                                    <img src="<?php echo asset('assets/img/icons/close.svg'); ?>" alt="close icon">
+                                    <img src="assets/img/icons/close.svg" alt="close icon">
                                 </span>
                             </div>
                         </div>

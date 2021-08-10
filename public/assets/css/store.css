@@ -1,3 +1,19 @@
+.manage-store-containner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .manage-store-containner .select-store {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -78,6 +94,7 @@
   height: 112px;
   width: 111px;
   margin: 1em;
+  cursor: pointer;
 }
 
 .manage-store-containner .select-store .select-store__store .img-containner {
@@ -173,5 +190,210 @@
 
 .manage-store-containner .select-store__agreement .select-store__agreemnts p:nth-of-type(1) {
   color: #6f42c1;
+}
+
+.manage-store-containner .pricing-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 1em 0;
+}
+
+.manage-store-containner .pricing-boxes__box {
+  width: 25em;
+  background-color: white;
+  padding: 1.5em;
+  border-radius: 10px;
+  margin: 1em 4em 1em 0;
+}
+
+.manage-store-containner .pricing-boxes__box p {
+  font-weight: 500;
+}
+
+.manage-store-containner .pricing-boxes__box .checkboxes-containner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 1100px) {
+  .manage-store-containner .pricing-boxes {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .manage-store-containner .pricing-boxes__box {
+    margin: 1em 2em;
+  }
+}
+
+.manage-store-containner .last-section {
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.manage-store-containner .last-section select {
+  width: 20%;
+  border-radius: 10px;
+  color: black;
+  font-size: 1em;
+}
+
+.manage-store-containner .last-section__territories {
+  margin-bottom: 1.5em;
+}
+
+.manage-store-containner .last-section__territories p, .manage-store-containner .last-section__stories p {
+  font-weight: 500;
+  padding-bottom: 0.5em;
+}
+
+.manage-store-containner .last-section__territories .last-section__territories-field,
+.manage-store-containner .last-section__territories .last-section__stories-field, .manage-store-containner .last-section__stories .last-section__territories-field,
+.manage-store-containner .last-section__stories .last-section__stories-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.manage-store-containner .last-section__territories .last-section__territories-field .field-containner,
+.manage-store-containner .last-section__territories .last-section__stories-field .field-containner, .manage-store-containner .last-section__stories .last-section__territories-field .field-containner,
+.manage-store-containner .last-section__stories .last-section__stories-field .field-containner {
+  border-radius: 10px;
+  background-color: #f8f7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: auto;
+  padding: 0.3em 1em;
+  overflow: auto;
+}
+
+.manage-store-containner .last-section__territories .last-section__territories-field .field-containner .elements-containner,
+.manage-store-containner .last-section__territories .last-section__stories-field .field-containner .elements-containner, .manage-store-containner .last-section__stories .last-section__territories-field .field-containner .elements-containner,
+.manage-store-containner .last-section__stories .last-section__stories-field .field-containner .elements-containner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.manage-store-containner .last-section__territories .last-section__territories-field .field-containner .elements-containner .element,
+.manage-store-containner .last-section__territories .last-section__stories-field .field-containner .elements-containner .element, .manage-store-containner .last-section__stories .last-section__territories-field .field-containner .elements-containner .element,
+.manage-store-containner .last-section__stories .last-section__stories-field .field-containner .elements-containner .element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0.5em;
+  border-radius: 5px;
+  background-color: white;
+  padding: 0.4em;
+  min-width: 5.625em;
+}
+
+.manage-store-containner .last-section__territories .last-section__territories-field .field-containner .elements-containner .element span,
+.manage-store-containner .last-section__territories .last-section__stories-field .field-containner .elements-containner .element span, .manage-store-containner .last-section__stories .last-section__territories-field .field-containner .elements-containner .element span,
+.manage-store-containner .last-section__stories .last-section__stories-field .field-containner .elements-containner .element span {
+  margin-right: 1em;
+}
+
+.manage-store-containner .last-section__territories .last-section__territories-field .field-containner .elements-containner .element .delete,
+.manage-store-containner .last-section__territories .last-section__stories-field .field-containner .elements-containner .element .delete, .manage-store-containner .last-section__stories .last-section__territories-field .field-containner .elements-containner .element .delete,
+.manage-store-containner .last-section__stories .last-section__stories-field .field-containner .elements-containner .element .delete {
+  height: 1em;
+  width: 1em;
+  background-color: #f8f7ff;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  cursor: pointer;
+}
+
+.manage-store-containner .last-section__territories .last-section__territories-field .field-containner .elements-containner .element .delete img,
+.manage-store-containner .last-section__territories .last-section__stories-field .field-containner .elements-containner .element .delete img, .manage-store-containner .last-section__stories .last-section__territories-field .field-containner .elements-containner .element .delete img,
+.manage-store-containner .last-section__stories .last-section__stories-field .field-containner .elements-containner .element .delete img {
+  width: 70%;
+}
+
+.manage-store-containner .last-section__territories .last-section__territories-field .field-containner input,
+.manage-store-containner .last-section__territories .last-section__stories-field .field-containner input, .manage-store-containner .last-section__stories .last-section__territories-field .field-containner input,
+.manage-store-containner .last-section__stories .last-section__stories-field .field-containner input {
+  border: 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.manage-store-containner .last-section__territories .last-section__territories-field button,
+.manage-store-containner .last-section__territories .last-section__stories-field button, .manage-store-containner .last-section__stories .last-section__territories-field button,
+.manage-store-containner .last-section__stories .last-section__stories-field button {
+  background-color: transparent;
+  color: black;
+  border: 1px solid gainsboro;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 0.8em 0;
+  width: 13.0625em;
+  margin-left: 0.5em;
+}
+
+.manage-store-containner .last-section p {
+  margin: 2em 0 0 0;
+}
+
+.manage-store-containner .last-section p span {
+  color: #ff4e5f;
+}
+
+@media screen and (max-width: 460px) {
+  .manage-store-containner .select-store__stores-containner {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .manage-store-containner .last-section select {
+    width: 50%;
+  }
+  .manage-store-containner .last-section .last-section__territories-field,
+  .manage-store-containner .last-section .last-section__stories-field {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .manage-store-containner .last-section .last-section__territories-field button,
+  .manage-store-containner .last-section .last-section__stories-field button {
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .main-content {
+    font-size: 10px;
+  }
 }
 /*# sourceMappingURL=store.css.map */
