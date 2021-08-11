@@ -306,6 +306,7 @@
   background-color: white;
   padding: 0.4em;
   min-width: 5.625em;
+  width: auto;
 }
 
 .manage-store-containner .last-section__territories .last-section__territories-field .field-containner .elements-containner .element span,
@@ -359,6 +360,7 @@
   padding: 0.8em 0;
   width: 13.0625em;
   margin-left: 0.5em;
+  outline: none;
 }
 
 .manage-store-containner .last-section p {
@@ -367,6 +369,12 @@
 
 .manage-store-containner .last-section p span {
   color: #ff4e5f;
+}
+
+@media screen and (max-width: 920px) {
+  .manage-store-containner {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 460px) {
@@ -388,12 +396,6 @@
   .manage-store-containner .last-section .last-section__territories-field button,
   .manage-store-containner .last-section .last-section__stories-field button {
     margin-top: 1em;
-  }
-}
-
-@media screen and (max-width: 920px) {
-  .main-content {
-    font-size: 10px;
   }
 }
 /*# sourceMappingURL=store.css.map */

@@ -67,11 +67,14 @@ class AdminController extends Controller
     public function audio(){
         return view('admin.audio');
     }
-    public function album(){
-        return view('admin.album');
+    public function uploadAlbum(){
+        return view('admin.upload-album');
     }
     public function store(){
         return view('admin.store');
+    }
+    public function testAlbum(){
+        return view('admin.test-album');
     }
     public function file(){
         $countries = CountryListFacade::getList('en');

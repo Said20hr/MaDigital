@@ -1,18 +1,19 @@
 @extends('admin.includes.master-new')
 @section('title', 'dashboard')
 @section('stylesheet')
-    <link rel="stylesheet" href="assets/css/album.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/upload-album.css" type="text/css">
 @endsection
 
 @section('content')
-    <div class="main-content">
+    <div class="main-content" style="background-color: #f8f7ff">
 
 
         @include('admin/includes/header-new')
         <div class="home-section-four pt-5">
             <div class="m-md-4">
                 <div class="upload-album-containner">
-                    <div class="card bg-light" style="border-radius: 10px !important; width: 100%; margin: 1em 0 2em 0">
+                    <div class="card"
+                        style="border-radius: 10px !important; width: 100%; margin: 1em 0 2em 0; background-color: white; box-shadow: none">
                         <div class="card-body d-flex justify-content-between align-items-center">
                             <div class="d-flex justify-content-center align-items-center fw-bolder">
                                 <div style="font-size: 20px;color: rgba(68,68,68,0.98)">Upload Album Artwork</div>
@@ -21,6 +22,7 @@
                                 style="width: 30px;height: 30px"><i class="fa fa-question text-white"></i></div>
                         </div>
                     </div>
+
                     <div class="album-containner">
                         <div class="album-containner__title">
                             <h5>Album Artwork</h5>
@@ -126,23 +128,24 @@
                     <p class="album-agreement">By uploading your Artwork to RouteNote, you acknowledge that you agree to
                         RouteNote’s Terms and
                         Conditions. Please be sure not to violate the copyright or privacy rights of others, learn more</p>
-                </div>
 
-                <!--Save banner-->
-                <div class="card mt-5" style="border-radius: 10px !important;">
-                    <div class="card-body d-flex justify-content-between align-items-center text-center">
-                        <div class="col-md-4 d-flex justify-content-center">
-                            <div class="d-flex justify-content-center align-items-center"
-                                style="font-size: 1.625em;color: rgba(68,68,68,0.98);border-radius: 50% ;border: 2px #3858f9 solid;width:3.125em;height: 3.125em">
-                                <i class="fa fa-chevron-left text-primary "></i>
+                    <!--save banner-->
+                    <div class="card mt-5" style="border-radius: 10px !important; width: 100%">
+                        <div class="card-body d-flex justify-content-between align-items-center text-center">
+                            <div class="col-md-4 d-flex justify-content-center">
+                                <div class="d-flex justify-content-center align-items-center"
+                                    style="font-size: 1.625em;color: rgba(68,68,68,0.98);border-radius: 50% ;border: 2px #3858f9 solid;width:3.125em;height: 3.125em">
+                                    <i class="fa fa-chevron-left text-primary "></i>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <button class="btn btn-primary btn-lg  py-3 col-md-4" type="button"
-                                style="font-size:1.25em;border-radius: 15px">Save</button>
+                            <div class="col-md-6">
+                                <button class="btn btn-primary btn-lg  py-3 col-md-4" type="button"
+                                    style="font-size:1.25em;border-radius: 15px">Save</button>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>

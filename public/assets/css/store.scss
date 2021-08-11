@@ -225,6 +225,7 @@
                             background-color: white;
                             padding: 0.4em;
                             min-width: 5.625em;
+                            width: auto;
 
                             span {
                                 margin-right: 1em;
@@ -264,6 +265,7 @@
                     padding: 0.8em 0;
                     width: 13.0625em;
                     margin-left: 0.5em;
+                    outline: none;
                 }
             }
         }
@@ -277,9 +279,9 @@
         }
     }
 
-    // @media screen and (max-width: 920px) {
-    //     font-size: 10px;
-    // }
+    @media screen and (max-width: 920px) {
+        font-size: 10px;
+    }
 
     @media screen and (max-width: 460px) {
         .select-store__stores-containner {
@@ -300,11 +302,5 @@
                 }
             }
         }
-    }
-}
-
-.main-content {
-    @media screen and (max-width: 920px) {
-        font-size: 10px;
     }
 }
