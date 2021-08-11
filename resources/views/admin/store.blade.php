@@ -263,8 +263,8 @@
                                     <label class="custom-control-label" for="customCheck3">Lowest</label>
                                 </div>
                                 <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="customCheck3">
-                                    <label class="custom-control-label" for="customCheck3">Low</label>
+                                    <input type="checkbox" class="custom-control-input" id="customCheck33">
+                                    <label class="custom-control-label" for="customCheck33">Low</label>
                                 </div>
                                 <div class="custom-control custom-checkbox">
                                     <input type="checkbox" class="custom-control-input" id="customCheck4">
