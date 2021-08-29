@@ -1034,6 +1034,7 @@
         $('.update_artist').attr('disabled', 'disabled');
     </script>
     @stack('scripts')
+    @yield("myScripts")
 
 </body>
 @livewireScripts
