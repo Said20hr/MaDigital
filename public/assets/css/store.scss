@@ -65,6 +65,10 @@
             margin: 1em;
             cursor: pointer;
 
+            .store-index {
+                display: none;
+            }
+
             .img-containner {
                 border-top-left-radius: 10px;
                 border-top-right-radius: 10px;
@@ -92,13 +96,7 @@
             &--selected {
                 position: relative;
 
-                .img-containner,
-                .store-name {
-                    opacity: 0.4;
-                }
-
-                &::after {
-                    content: "1";
+                .store-index {
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -111,6 +109,11 @@
                     background-color: #3858f9;
                     border-radius: 100%;
                     color: white;
+                }
+
+                .img-containner,
+                .store-name {
+                    opacity: 0.4;
                 }
             }
         }

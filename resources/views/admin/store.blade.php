@@ -4,6 +4,10 @@
     <link rel="stylesheet" href="assets/css/store.css" type="text/css">
 @endsection
 
+@section('myScripts')
+    <script src="assets/js/store-page.js"></script>
+@endsection
+
 @section('content')
     <div class="main-content" style="background-color: #f8f7ff">
 
@@ -26,7 +30,7 @@
                     <div class="select-store">
                         <div class="select-store__title">
                             <h5>Select Store</h5>
-                            <span>9</span>
+                            <span>0</span>
                         </div>
                         <div class="select-store__controls">
                             <div class="select-store__search-containner">
@@ -39,7 +43,8 @@
                             </div>
                         </div>
                         <div class="select-store__stores-containner">
-                            <div class="select-store__store">
+                            <div class="select-store__store" id="spotify">
+                                <div class="store-index">10</div>
                                 <div class="img-containner">
                                     <img src="img/spotify.png" alt="spotify logo">
                                 </div>
@@ -47,7 +52,134 @@
                                     Spotify
                                 </div>
                             </div>
-                            <div class="select-store__store select-store__store--selected">
+                            <div class="select-store__store" id="spotify">
+                                <div class="store-index">10</div>
+                                <div class="img-containner">
+                                    <img src="img/spotify.png" alt="spotify logo">
+                                </div>
+                                <div class="store-name">
+                                    Spotify
+                                </div>
+                            </div>
+                            <div class="select-store__store" id="spotify">
+                                <div class="store-index">10</div>
+                                <div class="img-containner">
+                                    <img src="img/spotify.png" alt="spotify logo">
+                                </div>
+                                <div class="store-name">
+                                    Spotify
+                                </div>
+                            </div>
+                            <div class="select-store__store" id="apple">
+                                <div class="store-index">10</div>
+                                <div class="img-containner">
+                                    <img src="img/apple.png" alt="apple logo">
+                                </div>
+                                <div class="store-name">
+                                    Apple
+                                </div>
+                            </div>
+                            <div class="select-store__store" id="apple">
+                                <div class="store-index">10</div>
+                                <div class="img-containner">
+                                    <img src="img/apple.png" alt="apple logo">
+                                </div>
+                                <div class="store-name">
+                                    Apple
+                                </div>
+                            </div>
+                            <div class="select-store__store" id="apple">
+                                <div class="store-index">10</div>
+                                <div class="img-containner">
+                                    <img src="img/apple.png" alt="apple logo">
+                                </div>
+                                <div class="store-name">
+                                    Apple
+                                </div>
+                            </div>
+                            <div class="select-store__store" id="amazon">
+                                <div class="store-index">10</div>
+                                <div class="img-containner">
+                                    <img src="img/amazon.png" alt="amazon logo">
+                                </div>
+                                <div class="store-name">
+                                    Amazon
+                                </div>
+                            </div>
+                            <div class="select-store__store" id="amazon">
+                                <div class="store-index">10</div>
+                                <div class="img-containner">
+                                    <img src="img/amazon.png" alt="amazon logo">
+                                </div>
+                                <div class="store-name">
+                                    Amazon
+                                </div>
+                            </div>
+                            <div class="select-store__store" id="amazon">
+                                <div class="store-index">10</div>
+                                <div class="img-containner">
+                                    <img src="img/amazon.png" alt="amazon logo">
+                                </div>
+                                <div class="store-name">
+                                    Amazon
+                                </div>
+                            </div>
+                            <div class="select-store__store">
+                                <div class="store-index">10</div>
+                                <div class="img-containner">
+                                    <img src="img/apple.png" alt="apple logo">
+                                </div>
+                                <div class="store-name">
+                                    Apple
+                                </div>
+                            </div>
+                            <div class="select-store__store">
+                                <div class="store-index">10</div>
+                                <div class="img-containner">
+                                    <img src="img/apple.png" alt="apple logo">
+                                </div>
+                                <div class="store-name">
+                                    Apple
+                                </div>
+                            </div>
+                            <div class="select-store__store">
+                                <div class="store-index">10</div>
+                                <div class="img-containner">
+                                    <img src="img/apple.png" alt="apple logo">
+                                </div>
+                                <div class="store-name">
+                                    Apple
+                                </div>
+                            </div>
+                            <div class="select-store__store">
+                                <div class="store-index">10</div>
+                                <div class="img-containner">
+                                    <img src="img/amazon.png" alt="amazon logo">
+                                </div>
+                                <div class="store-name">
+                                    Amazon
+                                </div>
+                            </div>
+                            <div class="select-store__store">
+                                <div class="store-index">10</div>
+                                <div class="img-containner">
+                                    <img src="img/amazon.png" alt="amazon logo">
+                                </div>
+                                <div class="store-name">
+                                    Amazon
+                                </div>
+                            </div>
+                            <div class="select-store__store">
+                                <div class="store-index">10</div>
+                                <div class="img-containner">
+                                    <img src="img/amazon.png" alt="amazon logo">
+                                </div>
+                                <div class="store-name">
+                                    Amazon
+                                </div>
+                            </div>
+                            <div class="select-store__store">
+                                <div class="store-index">10</div>
                                 <div class="img-containner">
                                     <img src="img/spotify.png" alt="spotify logo">
                                 </div>
@@ -56,6 +188,7 @@
                                 </div>
                             </div>
                             <div class="select-store__store">
+                                <div class="store-index">10</div>
                                 <div class="img-containner">
                                     <img src="img/spotify.png" alt="spotify logo">
                                 </div>
@@ -64,102 +197,7 @@
                                 </div>
                             </div>
                             <div class="select-store__store">
-                                <div class="img-containner">
-                                    <img src="img/apple.png" alt="apple logo">
-                                </div>
-                                <div class="store-name">
-                                    Apple
-                                </div>
-                            </div>
-                            <div class="select-store__store">
-                                <div class="img-containner">
-                                    <img src="img/apple.png" alt="apple logo">
-                                </div>
-                                <div class="store-name">
-                                    Apple
-                                </div>
-                            </div>
-                            <div class="select-store__store">
-                                <div class="img-containner">
-                                    <img src="img/apple.png" alt="apple logo">
-                                </div>
-                                <div class="store-name">
-                                    Apple
-                                </div>
-                            </div>
-                            <div class="select-store__store select-store__store--selected">
-                                <div class="img-containner">
-                                    <img src="img/amazon.png" alt="amazon logo">
-                                </div>
-                                <div class="store-name">
-                                    Amazon
-                                </div>
-                            </div>
-                            <div class="select-store__store">
-                                <div class="img-containner">
-                                    <img src="img/amazon.png" alt="amazon logo">
-                                </div>
-                                <div class="store-name">
-                                    Amazon
-                                </div>
-                            </div>
-                            <div class="select-store__store">
-                                <div class="img-containner">
-                                    <img src="img/amazon.png" alt="amazon logo">
-                                </div>
-                                <div class="store-name">
-                                    Amazon
-                                </div>
-                            </div>
-                            <div class="select-store__store">
-                                <div class="img-containner">
-                                    <img src="img/apple.png" alt="apple logo">
-                                </div>
-                                <div class="store-name">
-                                    Apple
-                                </div>
-                            </div>
-                            <div class="select-store__store">
-                                <div class="img-containner">
-                                    <img src="img/apple.png" alt="apple logo">
-                                </div>
-                                <div class="store-name">
-                                    Apple
-                                </div>
-                            </div>
-                            <div class="select-store__store">
-                                <div class="img-containner">
-                                    <img src="img/apple.png" alt="apple logo">
-                                </div>
-                                <div class="store-name">
-                                    Apple
-                                </div>
-                            </div>
-                            <div class="select-store__store select-store__store--selected">
-                                <div class="img-containner">
-                                    <img src="img/amazon.png" alt="amazon logo">
-                                </div>
-                                <div class="store-name">
-                                    Amazon
-                                </div>
-                            </div>
-                            <div class="select-store__store">
-                                <div class="img-containner">
-                                    <img src="img/amazon.png" alt="amazon logo">
-                                </div>
-                                <div class="store-name">
-                                    Amazon
-                                </div>
-                            </div>
-                            <div class="select-store__store">
-                                <div class="img-containner">
-                                    <img src="img/amazon.png" alt="amazon logo">
-                                </div>
-                                <div class="store-name">
-                                    Amazon
-                                </div>
-                            </div>
-                            <div class="select-store__store">
+                                <div class="store-index">10</div>
                                 <div class="img-containner">
                                     <img src="img/spotify.png" alt="spotify logo">
                                 </div>
@@ -168,30 +206,7 @@
                                 </div>
                             </div>
                             <div class="select-store__store">
-                                <div class="img-containner">
-                                    <img src="img/spotify.png" alt="spotify logo">
-                                </div>
-                                <div class="store-name">
-                                    Spotify
-                                </div>
-                            </div>
-                            <div class="select-store__store">
-                                <div class="img-containner">
-                                    <img src="img/spotify.png" alt="spotify logo">
-                                </div>
-                                <div class="store-name">
-                                    Spotify
-                                </div>
-                            </div>
-                            <div class="select-store__store">
-                                <div class="img-containner">
-                                    <img src="img/apple.png" alt="apple logo">
-                                </div>
-                                <div class="store-name">
-                                    Apple
-                                </div>
-                            </div>
-                            <div class="select-store__store select-store__store--selected">
+                                <div class="store-index">10</div>
                                 <div class="img-containner">
                                     <img src="img/apple.png" alt="apple logo">
                                 </div>
@@ -200,6 +215,7 @@
                                 </div>
                             </div>
                             <div class="select-store__store">
+                                <div class="store-index">10</div>
                                 <div class="img-containner">
                                     <img src="img/apple.png" alt="apple logo">
                                 </div>
@@ -208,6 +224,16 @@
                                 </div>
                             </div>
                             <div class="select-store__store">
+                                <div class="store-index">10</div>
+                                <div class="img-containner">
+                                    <img src="img/apple.png" alt="apple logo">
+                                </div>
+                                <div class="store-name">
+                                    Apple
+                                </div>
+                            </div>
+                            <div class="select-store__store">
+                                <div class="store-index">10</div>
                                 <div class="img-containner">
                                     <img src="img/amazon.png" alt="amazon logo">
                                 </div>
@@ -216,6 +242,7 @@
                                 </div>
                             </div>
                             <div class="select-store__store">
+                                <div class="store-index">10</div>
                                 <div class="img-containner">
                                     <img src="img/amazon.png" alt="amazon logo">
                                 </div>
@@ -224,6 +251,7 @@
                                 </div>
                             </div>
                             <div class="select-store__store">
+                                <div class="store-index">10</div>
                                 <div class="img-containner">
                                     <img src="img/amazon.png" alt="amazon logo">
                                 </div>
@@ -233,7 +261,8 @@
                             </div>
                         </div>
                         <div class="select-store__agreement">
-                            <div class="select-store__store select-store__store--selected">
+                            <div class="select-store__store">
+                                <div class="store-index">10</div>
                                 <div class="img-containner">
                                     <img src="img/amazon.png" alt="amazon logo">
                                 </div>
