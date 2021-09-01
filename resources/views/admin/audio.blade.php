@@ -4,6 +4,11 @@
     <link rel="stylesheet" href="assets/css/audio.css" type="text/css">
 @endsection
 
+@section('myScripts')
+    <script src="assets/js/audio-page.js"></script>
+@endsection
+
+
 @section('content')
     <div class="main-content" style="background-color: #f8f7ff">
 
@@ -30,11 +35,12 @@
                         <div class="audio-containner__drag-drop-section">
                             <p>Drag and drop Here</p>
                             <p>Or</p>
-                            <p>Browse File</p>
+                            <p class="browse-btn">Browse File</p>
+                            <input type="file" class="song-input" name="song-file" accept="audio/*">
                             <p>You can upload here mp3 file</p>
                         </div>
                         <div class="audio-containner__uploads">
-                            <div class="audio-containner__upload">
+                            {{-- <div class="audio-containner__upload">
                                 <p><span>1.</span> Uploaded song name 1</p>
                                 <span class="delete">
                                     <img src="assets/img/icons/close.svg" alt="close icon">
@@ -45,7 +51,7 @@
                                 <span class="delete">
                                     <img src="assets/img/icons/close.svg" alt="close icon">
                                 </span>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
 

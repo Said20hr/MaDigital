@@ -29,7 +29,7 @@
         background-color: white;
         text-align: center;
         border-radius: 10px;
-        padding: 0 1.5em;
+        padding: 1em 1.5em;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -56,10 +56,14 @@
             border: 2px dashed rgba(82, 81, 81, 0.214);
             border-radius: 10px;
             padding: 2em 0;
+
+            .song-input {
+                display: none;
+            }
         }
 
         &__drag-drop-section p {
-            font-size: 0.875em;
+            font-size: 0.9em;
         }
 
         &__drag-drop-section p:nth-of-type(1) {
@@ -74,6 +78,7 @@
         &__drag-drop-section p:nth-of-type(3) {
             color: #3858f9;
             cursor: pointer;
+            font-weight: 500;
         }
 
         &__drag-drop-section p:last-of-type {
@@ -89,6 +94,7 @@
             -ms-flex-direction: column;
             flex-direction: column;
             margin-top: 1em;
+            overflow-y: scroll;
 
             .audio-containner__upload {
                 display: -webkit-box;
