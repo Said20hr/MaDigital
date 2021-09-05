@@ -18,8 +18,11 @@
                             <div class="d-flex justify-content-center align-items-center fw-bolder">
                                 <div style="font-size: 20px;color: rgba(68,68,68,0.98)">Test Album</div>
                             </div>
-                            <div class="bg-secondary rounded-circle d-flex justify-content-center align-items-center"
-                                style="width: 30px;height: 30px"><i class="fa fa-question text-white"></i></div>
+                            <button type="button" class="btn" data-toggle="tooltip" data-placement="top"
+                                title="Tooltip on top">
+                                <div class="bg-secondary rounded-circle d-flex justify-content-center align-items-center"
+                                    style="width: 30px;height: 30px"><i class="fa fa-question text-white"></i></div>
+                            </button>
                         </div>
                     </div>
 
@@ -146,7 +149,8 @@
 
                     <div class="pricing">
                         <div class="pricing__free">
-                            <p> <span class="red">Free</span> distribution model allows artists to upload their music to The
+                            <p> <span class="red">Free</span> distribution model allows artists to upload their
+                                music to The
                                 World's
                                 largest music
                                 stores without having to pay upfront.

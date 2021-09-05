@@ -59,14 +59,27 @@
                     margin: 0.5em 0;
                     border-radius: 10px;
                     border: 1.5px solid black;
+                    transition: all 0.3s;
 
                     &:nth-of-type(1) {
                         background-color: #6f42c1;
                         color: white;
+
+                        &:hover {
+                            background-color: white;
+                            color: #6f42c1;
+                            transition: all 0.3s;
+                        }
                     }
                     &:nth-of-type(2) {
                         background-color: transparent;
                         color: black;
+
+                        &:hover {
+                            background-color: #6f42c1;
+                            color: white;
+                            transition: all 0.3s;
+                        }
                     }
                 }
             }
