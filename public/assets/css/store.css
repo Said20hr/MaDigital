@@ -351,6 +351,7 @@
   border: 0;
   background-color: transparent;
   outline: none;
+  width: 100%;
 }
 
 .manage-store-containner .last-section__territories .last-section__territories-field button,
@@ -367,6 +368,13 @@
   outline: none;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.manage-store-containner .last-section__territories .last-section__territories-field button:disabled,
+.manage-store-containner .last-section__territories .last-section__stories-field button:disabled, .manage-store-containner .last-section__stories .last-section__territories-field button:disabled,
+.manage-store-containner .last-section__stories .last-section__stories-field button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .manage-store-containner .last-section__territories .last-section__territories-field button:hover,

@@ -427,13 +427,15 @@
                                         <div class="element">
                                             <span>Type1</span>
                                             <span class="delete">
-                                                <img src="assets/img/icons/close.svg" alt="close icon">
+                                                <img src="assets/img/icons/close.svg" alt="close icon"
+                                                    class="delete-img">
                                             </span>
                                         </div>
                                         <div class="element">
                                             <span>Type2</span>
                                             <span class="delete">
-                                                <img src="assets/img/icons/close.svg" alt="close icon">
+                                                <img src="assets/img/icons/close.svg" alt="close icon"
+                                                    class="delete-img">
                                             </span>
                                         </div>
                                     </div>
@@ -450,19 +452,22 @@
                                         <div class="element">
                                             <span>Emusic</span>
                                             <span class="delete">
-                                                <img src="assets/img/icons/close.svg" alt="close icon">
+                                                <img src="assets/img/icons/close.svg" alt="close icon"
+                                                    class="delete-img">
                                             </span>
                                         </div>
                                         <div class="element">
                                             <span>Emusic</span>
                                             <span class="delete">
-                                                <img src="assets/img/icons/close.svg" alt="close icon">
+                                                <img src="assets/img/icons/close.svg" alt="close icon"
+                                                    class="delete-img">
                                             </span>
                                         </div>
                                         <div class="element">
                                             <span>Emusic</span>
                                             <span class="delete">
-                                                <img src="assets/img/icons/close.svg" alt="close icon">
+                                                <img src="assets/img/icons/close.svg" alt="close icon"
+                                                    class="delete-img">
                                             </span>
                                         </div>
                                     </div>
