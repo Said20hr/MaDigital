@@ -97,6 +97,8 @@
   margin: 0.5em 0;
   border-radius: 10px;
   border: 1.5px solid black;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .upload-album-containner .album-containner__group .album-containner__controls button:nth-of-type(1) {
@@ -104,9 +106,23 @@
   color: white;
 }
 
+.upload-album-containner .album-containner__group .album-containner__controls button:nth-of-type(1):hover {
+  background-color: white;
+  color: #6f42c1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 .upload-album-containner .album-containner__group .album-containner__controls button:nth-of-type(2) {
   background-color: transparent;
   color: black;
+}
+
+.upload-album-containner .album-containner__group .album-containner__controls button:nth-of-type(2):hover {
+  background-color: #6f42c1;
+  color: white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .upload-album-containner .album-containner__group .album-containner__recommandation {

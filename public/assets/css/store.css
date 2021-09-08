@@ -25,6 +25,7 @@
   border: 1px solid gainsboro;
   border-radius: 16px;
   padding: 2em;
+  width: 100%;
 }
 
 .manage-store-containner .select-store__title {
@@ -145,8 +146,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 2em;
-  width: 2em;
+  width: 5em;
+  padding: 1em 0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -350,6 +351,7 @@
   border: 0;
   background-color: transparent;
   outline: none;
+  width: 100%;
 }
 
 .manage-store-containner .last-section__territories .last-section__territories-field button,
@@ -364,6 +366,24 @@
   width: 13.0625em;
   margin-left: 0.5em;
   outline: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.manage-store-containner .last-section__territories .last-section__territories-field button:disabled,
+.manage-store-containner .last-section__territories .last-section__stories-field button:disabled, .manage-store-containner .last-section__stories .last-section__territories-field button:disabled,
+.manage-store-containner .last-section__stories .last-section__stories-field button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.manage-store-containner .last-section__territories .last-section__territories-field button:hover,
+.manage-store-containner .last-section__territories .last-section__stories-field button:hover, .manage-store-containner .last-section__stories .last-section__territories-field button:hover,
+.manage-store-containner .last-section__stories .last-section__stories-field button:hover {
+  background-color: black;
+  color: white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .manage-store-containner .last-section p {

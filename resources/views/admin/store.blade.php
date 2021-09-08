@@ -22,8 +22,11 @@
                             <div class="d-flex justify-content-center align-items-center fw-bolder">
                                 <div style="font-size: 20px;color: rgba(68,68,68,0.98)">Manage Store</div>
                             </div>
-                            <div class="bg-secondary rounded-circle d-flex justify-content-center align-items-center"
-                                style="width: 30px;height: 30px"><i class="fa fa-question text-white"></i></div>
+                            <button type="button" class="btn" data-toggle="tooltip" data-placement="top"
+                                title="Tooltip on top">
+                                <div class="bg-secondary rounded-circle d-flex justify-content-center align-items-center"
+                                    style="width: 30px;height: 30px"><i class="fa fa-question text-white"></i></div>
+                            </button>
                         </div>
                     </div>
 
@@ -44,7 +47,7 @@
                         </div>
                         <div class="select-store__stores-containner">
                             <div class="select-store__store" id="spotify">
-                                <div class="store-index">10</div>
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/spotify.png" alt="spotify logo">
                                 </div>
@@ -53,7 +56,7 @@
                                 </div>
                             </div>
                             <div class="select-store__store" id="spotify">
-                                <div class="store-index">10</div>
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/spotify.png" alt="spotify logo">
                                 </div>
@@ -62,7 +65,7 @@
                                 </div>
                             </div>
                             <div class="select-store__store" id="spotify">
-                                <div class="store-index">10</div>
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/spotify.png" alt="spotify logo">
                                 </div>
@@ -71,7 +74,7 @@
                                 </div>
                             </div>
                             <div class="select-store__store" id="apple">
-                                <div class="store-index">10</div>
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/apple.png" alt="apple logo">
                                 </div>
@@ -80,7 +83,7 @@
                                 </div>
                             </div>
                             <div class="select-store__store" id="apple">
-                                <div class="store-index">10</div>
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/apple.png" alt="apple logo">
                                 </div>
@@ -89,7 +92,7 @@
                                 </div>
                             </div>
                             <div class="select-store__store" id="apple">
-                                <div class="store-index">10</div>
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/apple.png" alt="apple logo">
                                 </div>
@@ -98,7 +101,7 @@
                                 </div>
                             </div>
                             <div class="select-store__store" id="amazon">
-                                <div class="store-index">10</div>
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/amazon.png" alt="amazon logo">
                                 </div>
@@ -107,7 +110,7 @@
                                 </div>
                             </div>
                             <div class="select-store__store" id="amazon">
-                                <div class="store-index">10</div>
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/amazon.png" alt="amazon logo">
                                 </div>
@@ -116,7 +119,7 @@
                                 </div>
                             </div>
                             <div class="select-store__store" id="amazon">
-                                <div class="store-index">10</div>
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/amazon.png" alt="amazon logo">
                                 </div>
@@ -124,8 +127,8 @@
                                     Amazon
                                 </div>
                             </div>
-                            <div class="select-store__store">
-                                <div class="store-index">10</div>
+                            <div class="select-store__store" id="apple">
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/apple.png" alt="apple logo">
                                 </div>
@@ -133,8 +136,8 @@
                                     Apple
                                 </div>
                             </div>
-                            <div class="select-store__store">
-                                <div class="store-index">10</div>
+                            <div class="select-store__store" id="apple">
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/apple.png" alt="apple logo">
                                 </div>
@@ -142,8 +145,8 @@
                                     Apple
                                 </div>
                             </div>
-                            <div class="select-store__store">
-                                <div class="store-index">10</div>
+                            <div class="select-store__store" id="apple">
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/apple.png" alt="apple logo">
                                 </div>
@@ -151,8 +154,8 @@
                                     Apple
                                 </div>
                             </div>
-                            <div class="select-store__store">
-                                <div class="store-index">10</div>
+                            <div class="select-store__store" id="amazon">
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/amazon.png" alt="amazon logo">
                                 </div>
@@ -160,8 +163,8 @@
                                     Amazon
                                 </div>
                             </div>
-                            <div class="select-store__store">
-                                <div class="store-index">10</div>
+                            <div class="select-store__store" id="amazon">
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/amazon.png" alt="amazon logo">
                                 </div>
@@ -169,8 +172,8 @@
                                     Amazon
                                 </div>
                             </div>
-                            <div class="select-store__store">
-                                <div class="store-index">10</div>
+                            <div class="select-store__store" id="amazon">
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/amazon.png" alt="amazon logo">
                                 </div>
@@ -178,8 +181,8 @@
                                     Amazon
                                 </div>
                             </div>
-                            <div class="select-store__store">
-                                <div class="store-index">10</div>
+                            <div class="select-store__store" id="spotify">
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/spotify.png" alt="spotify logo">
                                 </div>
@@ -187,8 +190,8 @@
                                     Spotify
                                 </div>
                             </div>
-                            <div class="select-store__store">
-                                <div class="store-index">10</div>
+                            <div class="select-store__store" id="spotify">
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/spotify.png" alt="spotify logo">
                                 </div>
@@ -196,8 +199,8 @@
                                     Spotify
                                 </div>
                             </div>
-                            <div class="select-store__store">
-                                <div class="store-index">10</div>
+                            <div class="select-store__store" id="spotify">
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/spotify.png" alt="spotify logo">
                                 </div>
@@ -205,8 +208,8 @@
                                     Spotify
                                 </div>
                             </div>
-                            <div class="select-store__store">
-                                <div class="store-index">10</div>
+                            <div class="select-store__store" id="apple">
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/apple.png" alt="apple logo">
                                 </div>
@@ -214,8 +217,8 @@
                                     Apple
                                 </div>
                             </div>
-                            <div class="select-store__store">
-                                <div class="store-index">10</div>
+                            <div class="select-store__store" id="apple">
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/apple.png" alt="apple logo">
                                 </div>
@@ -223,8 +226,8 @@
                                     Apple
                                 </div>
                             </div>
-                            <div class="select-store__store">
-                                <div class="store-index">10</div>
+                            <div class="select-store__store" id="apple">
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/apple.png" alt="apple logo">
                                 </div>
@@ -232,8 +235,8 @@
                                     Apple
                                 </div>
                             </div>
-                            <div class="select-store__store">
-                                <div class="store-index">10</div>
+                            <div class="select-store__store" id="amazon">
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/amazon.png" alt="amazon logo">
                                 </div>
@@ -241,8 +244,8 @@
                                     Amazon
                                 </div>
                             </div>
-                            <div class="select-store__store">
-                                <div class="store-index">10</div>
+                            <div class="select-store__store" id="amazon">
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/amazon.png" alt="amazon logo">
                                 </div>
@@ -250,8 +253,8 @@
                                     Amazon
                                 </div>
                             </div>
-                            <div class="select-store__store">
-                                <div class="store-index">10</div>
+                            <div class="select-store__store" id="amazon">
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/amazon.png" alt="amazon logo">
                                 </div>
@@ -261,8 +264,8 @@
                             </div>
                         </div>
                         <div class="select-store__agreement">
-                            <div class="select-store__store">
-                                <div class="store-index">10</div>
+                            <div class="select-store__store select-store__store--selected">
+                                <div class="store-index">Checked</div>
                                 <div class="img-containner">
                                     <img src="img/amazon.png" alt="amazon logo">
                                 </div>
@@ -424,13 +427,15 @@
                                         <div class="element">
                                             <span>Type1</span>
                                             <span class="delete">
-                                                <img src="assets/img/icons/close.svg" alt="close icon">
+                                                <img src="assets/img/icons/close.svg" alt="close icon"
+                                                    class="delete-img">
                                             </span>
                                         </div>
                                         <div class="element">
                                             <span>Type2</span>
                                             <span class="delete">
-                                                <img src="assets/img/icons/close.svg" alt="close icon">
+                                                <img src="assets/img/icons/close.svg" alt="close icon"
+                                                    class="delete-img">
                                             </span>
                                         </div>
                                     </div>
@@ -447,19 +452,22 @@
                                         <div class="element">
                                             <span>Emusic</span>
                                             <span class="delete">
-                                                <img src="assets/img/icons/close.svg" alt="close icon">
+                                                <img src="assets/img/icons/close.svg" alt="close icon"
+                                                    class="delete-img">
                                             </span>
                                         </div>
                                         <div class="element">
                                             <span>Emusic</span>
                                             <span class="delete">
-                                                <img src="assets/img/icons/close.svg" alt="close icon">
+                                                <img src="assets/img/icons/close.svg" alt="close icon"
+                                                    class="delete-img">
                                             </span>
                                         </div>
                                         <div class="element">
                                             <span>Emusic</span>
                                             <span class="delete">
-                                                <img src="assets/img/icons/close.svg" alt="close icon">
+                                                <img src="assets/img/icons/close.svg" alt="close icon"
+                                                    class="delete-img">
                                             </span>
                                         </div>
                                     </div>
