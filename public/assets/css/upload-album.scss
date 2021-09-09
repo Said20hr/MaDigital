@@ -35,52 +35,87 @@
             align-items: center;
             padding: 0 2em;
 
-            .album-containner__img-containner {
-                width: 15em;
-                height: 11em;
+            .album-containner__uploaded {
+                display: none;
+                align-items: center;
 
-                img {
-                    border-radius: 15px;
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
+                &__img-containner {
+                    width: 15em;
+                    height: 11em;
+
+                    img {
+                        border-radius: 15px;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                &__controls {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin: 0 2em;
+
+                    button {
+                        width: 7em;
+                        padding: 0.5em 0;
+                        margin: 0.5em 0;
+                        border-radius: 10px;
+                        border: 1.5px solid black;
+                        transition: all 0.3s;
+
+                        &:nth-of-type(1) {
+                            background-color: #6f42c1;
+                            color: white;
+
+                            &:hover {
+                                background-color: white;
+                                color: #6f42c1;
+                                transition: all 0.3s;
+                            }
+                        }
+                        &:nth-of-type(2) {
+                            background-color: transparent;
+                            color: black;
+
+                            &:hover {
+                                background-color: #6f42c1;
+                                color: white;
+                                transition: all 0.3s;
+                            }
+                        }
+                    }
                 }
             }
 
-            .album-containner__controls {
+            .album-containner__not-uploaded {
+                border: 2px dashed rgba(82, 81, 81, 0.214);
+                background-color: #f8f7ff;
+                width: 50%;
+                height: 12em;
                 display: flex;
                 flex-direction: column;
+                justify-content: center;
                 align-items: center;
-                margin: 0 1em;
+                text-align: center;
 
-                button {
-                    width: 7em;
-                    padding: 0.5em 0;
-                    margin: 0.5em 0;
-                    border-radius: 10px;
-                    border: 1.5px solid black;
-                    transition: all 0.3s;
+                p {
+                    margin: 0;
 
-                    &:nth-of-type(1) {
-                        background-color: #6f42c1;
-                        color: white;
-
-                        &:hover {
-                            background-color: white;
-                            color: #6f42c1;
-                            transition: all 0.3s;
-                        }
-                    }
                     &:nth-of-type(2) {
-                        background-color: transparent;
-                        color: black;
-
-                        &:hover {
-                            background-color: #6f42c1;
-                            color: white;
-                            transition: all 0.3s;
-                        }
+                        margin: 0.5em 0;
                     }
+
+                    &:nth-of-type(3) {
+                        color: #3858f9;
+                        font-weight: 500;
+                        cursor: pointer;
+                    }
+                }
+
+                .songImg-input {
+                    display: none;
                 }
             }
 
