@@ -64,12 +64,19 @@
   padding: 0 2em;
 }
 
-.upload-album-containner .album-containner__group .album-containner__img-containner {
+.upload-album-containner .album-containner__group .album-containner__uploaded {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.upload-album-containner .album-containner__group .album-containner__uploaded__img-containner {
   width: 15em;
   height: 11em;
 }
 
-.upload-album-containner .album-containner__group .album-containner__img-containner img {
+.upload-album-containner .album-containner__group .album-containner__uploaded__img-containner img {
   border-radius: 15px;
   width: 100%;
   height: 100%;
@@ -77,7 +84,7 @@
      object-fit: cover;
 }
 
-.upload-album-containner .album-containner__group .album-containner__controls {
+.upload-album-containner .album-containner__group .album-containner__uploaded__controls {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,10 +95,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 1em;
+  margin: 0 2em;
 }
 
-.upload-album-containner .album-containner__group .album-containner__controls button {
+.upload-album-containner .album-containner__group .album-containner__uploaded__controls button {
   width: 7em;
   padding: 0.5em 0;
   margin: 0.5em 0;
@@ -101,28 +108,67 @@
   transition: all 0.3s;
 }
 
-.upload-album-containner .album-containner__group .album-containner__controls button:nth-of-type(1) {
+.upload-album-containner .album-containner__group .album-containner__uploaded__controls button:nth-of-type(1) {
   background-color: #6f42c1;
   color: white;
 }
 
-.upload-album-containner .album-containner__group .album-containner__controls button:nth-of-type(1):hover {
+.upload-album-containner .album-containner__group .album-containner__uploaded__controls button:nth-of-type(1):hover {
   background-color: white;
   color: #6f42c1;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
-.upload-album-containner .album-containner__group .album-containner__controls button:nth-of-type(2) {
+.upload-album-containner .album-containner__group .album-containner__uploaded__controls button:nth-of-type(2) {
   background-color: transparent;
   color: black;
 }
 
-.upload-album-containner .album-containner__group .album-containner__controls button:nth-of-type(2):hover {
+.upload-album-containner .album-containner__group .album-containner__uploaded__controls button:nth-of-type(2):hover {
   background-color: #6f42c1;
   color: white;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.upload-album-containner .album-containner__group .album-containner__not-uploaded {
+  border: 2px dashed rgba(82, 81, 81, 0.214);
+  background-color: #f8f7ff;
+  width: 50%;
+  height: 12em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.upload-album-containner .album-containner__group .album-containner__not-uploaded p {
+  margin: 0;
+}
+
+.upload-album-containner .album-containner__group .album-containner__not-uploaded p:nth-of-type(2) {
+  margin: 0.5em 0;
+}
+
+.upload-album-containner .album-containner__group .album-containner__not-uploaded p:nth-of-type(3) {
+  color: #3858f9;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.upload-album-containner .album-containner__group .album-containner__not-uploaded .songImg-input {
+  display: none;
 }
 
 .upload-album-containner .album-containner__group .album-containner__recommandation {

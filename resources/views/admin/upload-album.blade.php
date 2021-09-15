@@ -4,6 +4,11 @@
     <link rel="stylesheet" href="assets/css/upload-album.css" type="text/css">
 @endsection
 
+@section('myScripts')
+    <script src="assets/js/uploadAlbum-page.js"></script>
+@endsection
+
+
 @section('content')
     <div class="main-content" style="background-color: #f8f7ff">
 
@@ -31,13 +36,22 @@
                             <h5>Album Artwork</h5>
                         </div>
                         <div class="album-containner__group">
-                            <div class="album-containner__img-containner">
-                                <img src="images/song.jpg" alt="song">
+                            <div class="album-containner__uploaded">
+                                <div class="album-containner__uploaded__img-containner">
+                                    <img src="images/song.jpg" alt="song">
+                                </div>
+                                <div class="album-containner__uploaded__controls">
+                                    <button>Edit</button>
+                                    <button>Delete</button>
+                                </div>
                             </div>
-                            <div class="album-containner__controls">
-                                <button>Edit</button>
-                                <button>Delete</button>
+                            <div class="album-containner__not-uploaded">
+                                <p>Drag and drop Here</p>
+                                <p>Or</p>
+                                <p class="browse-btn">Browse File</p>
+                                <input type="file" class="songImg-input" name="song-file" accept="image/*">
                             </div>
+
                             <div class="album-containner__recommandation">
                                 Need some stock photos for your cover art? Check out our selection of <span> Image
                                     Databases</span> that
